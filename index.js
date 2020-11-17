@@ -1,7 +1,7 @@
 const express = require("express")
 
 const testRouter = require("./test-router/test")
-const carsRouter = require("./cars-router/cars")
+const carsRouter = require("./cars/cars-router")
 
 const server = express()
 const port = process.env.PORT || 5000
