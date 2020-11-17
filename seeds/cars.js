@@ -47,3 +47,30 @@ exports.seed = async function(knex) {
      ])
 
 };
+
+/*
+FOR POST/TESTING----------
+
+ { 
+   "VIN": "5NPE34AF0FH102997", 
+   "make": "Buick", 
+   "model": "LeSabre", 
+   "mileage": 300000,
+   "manual": false,
+   "title_status": "Salvage"
+ }
+
+FOR PUT/TESTING (ID 1)-----
+
+ { 
+   "VIN": "1B3HB48BX7D582459", 
+   "make": "Ford", 
+   "model": "F150", 
+   "mileage": 180101,
+   "manual": false,
+   "title_status": "Owned"
+ }
+
+
+
+*/
